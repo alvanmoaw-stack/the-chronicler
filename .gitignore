@@ -23,22 +23,23 @@ dist-ssr
 *.sln
 *.sw?
 
-# Hide JSON files
+# Hide JSON files (except important configs)
 *.json
 !tsconfig*.json
 !package.json
 !package-lock.json
+!.oxlintrc.json
 
-# Hide image assets
-src/assets/*.jpg
-src/assets/*.jpeg
-src/assets/*.png
-src/assets/*.avif
-src/assets/*.webp
-src/assets/*.gif
-public/*.jpg
-public/*.jpeg
-public/*.png
-public/*.avif
-public/*.webp
-public/*.gif
+# Gambar di-unhide supaya bisa deploy
+# src/assets/*.jpg
+# src/assets/*.jpeg
+# src/assets/*.png
+# src/assets/*.avif
+# src/assets/*.webp
+# src/assets/*.gif
+# public/*.jpg
+# public/*.jpeg
+# public/*.png
+# public/*.avif
+# public/*.webp
+# public/*.gif
